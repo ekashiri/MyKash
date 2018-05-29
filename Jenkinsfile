@@ -8,7 +8,8 @@ pipeline {
     }
     stage('testing123') {
       environment {
-        MY_NAME = 'Mary'
+        MY_NAME = 'Kashiri1'
+        TEST_USER = credentials('Kashiri')
       }
       steps {
         sh 'java -version'
