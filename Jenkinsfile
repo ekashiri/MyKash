@@ -9,6 +9,7 @@ pipeline {
     stage('testing123') {
       steps {
         sh 'java -version'
+        echo 'testing4567'
       }
     }
   }
