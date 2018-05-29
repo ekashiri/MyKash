@@ -12,7 +12,6 @@ pipeline {
         TEST_USER = credentials('Kashiri')
       }
       steps {
-        sh 'java -version'
         echo 'testing4567'
       }
     }
